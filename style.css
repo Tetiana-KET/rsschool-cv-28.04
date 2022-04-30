@@ -5,6 +5,14 @@ body {
     font-family: 'Radio Canada', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto; 
 }
 * {
     box-sizing: border-box;
@@ -26,11 +34,26 @@ ul, li {
     display: flex;
     padding: 30px;
     align-items: center;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
 }
 .list-item {
     margin-right: 40px;
-    color: aliceblue;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+footer {
+    background-color: #2b665b;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+.footer-list-item {
+    margin-right: 40px;
+    color: #fff;
     font-weight: bold;
 }
