@@ -88,9 +88,12 @@ ul, li {
     background-color: #fff;
     transition: 0.8s;
 }
+.nav-padding-bottom {
+    padding-bottom: 50px;
+}
 .nav-list {
     display: flex;
-    padding: 30px 30px 80px;
+    padding: 30px;
     align-items: center;
     justify-content: space-between;
 }
@@ -115,7 +118,7 @@ ul, li {
 }
 .section {
     width: 40%;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .border-bottom {
     border-bottom: 2px solid #2b665b;
@@ -142,7 +145,7 @@ ul, li {
     color:#fff;
 }
 .padding-bottom {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 footer {
     background-color: #2b665b;
