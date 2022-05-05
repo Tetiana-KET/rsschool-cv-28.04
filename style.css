@@ -142,14 +142,24 @@ ul, li {
 .course-name {
     text-decoration: none;
     line-height: 40px;
-    color: #2b665b;
+    color: #1c0d0d;
 }
 .course-name:hover {
     box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-
     transition: 0.8s;
+    font-weight: bold;
+    color: #2b665b;
+}
+.project-item-link {
     color: #1c0d0d;
 }
+.project-item-link:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transition: 0.8s;
+    color: #2b665b;
+    font-weight: bold;
+}
+
 .padding-bottom {
     padding-bottom: 30px;
 }
